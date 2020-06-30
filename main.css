@@ -348,7 +348,7 @@ nav {
 
 .skills i {
     font-size: 50px;
-
+    padding-top: 10px;
 }
 
 .skills ul {
@@ -458,6 +458,14 @@ hr {
     justify-content: center;
     margin: 0 1.45rem 5rem 1.45rem;
 }
+
+.project-item-even {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1.45rem 5rem 1.45rem;
+}
+
 
 .project-img {
     flex: 1;
@@ -575,6 +583,13 @@ footer a {
 
     .project-item {
         flex-direction: column;
+        align-items: flex-start;
+        padding: 2rem;
+        box-shadow: 0 20px 30px 0 rgba(212, 255, 255, 0.15);
+    }
+
+    .project-item-even {
+        flex-direction: column-reverse;
         align-items: flex-start;
         padding: 2rem;
         box-shadow: 0 20px 30px 0 rgba(212, 255, 255, 0.15);
