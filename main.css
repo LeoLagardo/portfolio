@@ -77,7 +77,7 @@ nav {
 }
 
 .line1 {
-    width: 30px;
+    width: 15px;
     height: 3px;
     margin: 5px 0;
     background: linear-gradient(135deg,
@@ -113,6 +113,11 @@ nav {
     background: rgba(55, 55, 55, 0.5);
     padding: 1.2rem;
     border-radius: 0% 0% 0% 40%;
+    
+}
+
+.burger-menu-icon div{
+    transition: all 0.3s ease;
 }
 
 .profile-pic {
