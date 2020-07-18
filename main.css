@@ -113,10 +113,10 @@ nav {
     background: rgba(55, 55, 55, 0.5);
     padding: 1.2rem;
     border-radius: 0% 0% 0% 40%;
-    
+
 }
 
-.burger-menu-icon div{
+.burger-menu-icon div {
     transition: all 0.3s ease;
 }
 
@@ -353,6 +353,12 @@ nav {
 
 .skills i {
     font-size: 50px;
+    padding-top: 10px;
+}
+
+.iconify {
+
+    font-size: 60px;
     padding-top: 10px;
 }
 
